@@ -5,5 +5,8 @@ public class TestGeometria {
 		
 		double areaRectangulo= Geometria.calcularAreaRectangulo(2.123,1.233);
 		System.out.println("El area del rectangulo de base 2.123 y altura 1.233 es "+areaRectangulo);
+		
+		double areaCirculo =Geometria.calcularAreaCirculo(2.123);
+		System.out.println("El area del circulo de radio 2.123 es "+areaCirculo);
 		}
 }
